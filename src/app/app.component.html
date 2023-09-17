@@ -1,0 +1,68 @@
+<!--<div class="o1">-->
+<!--  <p>نام : {{moshakhasat1.name}}</p>-->
+<!--</div>-->
+<!--<div class="o1">-->
+<!--  <p>نام خانوادگی : {{moshakhasat1.namekh}} </p>-->
+<!--</div>-->
+<!--<div class="o1">-->
+<!--  <p>شماره : {{moshakhasat1.number}}</p>-->
+<!--</div>-->
+<!--<div class="o1">-->
+<!--  <p>ایمیل : {{moshakhasat1.email}} </p>-->
+<!--</div>-->
+<!--<div>-->
+<!--  <table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--      <th>نام</th>-->
+<!--      <th>نام خانودادگی</th>-->
+<!--      <th>شماره</th>-->
+<!--      <th>ایمیل</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr *ngFor="let op of moshakhasat">-->
+<!--      <td>{{op.name}}</td>-->
+<!--      <td>{{op.namekh}}</td>-->
+<!--      <td>{{op.number}}</td>-->
+<!--      <td>{{op.email}}</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--  </table>-->
+<!--</div>-->
+<!--<div class="o3">-->
+
+<!--  <button class="btn btn-primary"> click me</button>-->
+<!--  <div class="o4">-->
+<!--  </div>-->
+<!--</div>-->
+<!--<button (click)="mio(23)">click</button> <p>{{kio}}</p>-->
+<!--<button (click)="pr()">click</button>-->
+<!--<p>{{pp}}</p>-->
+<table>
+  <thead>
+  <tr>
+    <th>patinent</th>
+    <th>Statues</th>
+    <th>appointment</th>
+    <th>phone</th>
+    <th>doctor</th>
+    <th>actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let od of mariza">
+    <td>{{od.patient}}</td>
+    <td><span>consult</span></td>
+    <td>{{od.apoointment}}</td>
+    <td>{{od.phnoe}}</td>
+    <td>{{od.doctor}}</td>
+    <td ><button class="btn btn-dark" (click)="action()" >click</button></td>
+  </tr>
+  </tbody>
+</table>
+
+
+
+
+
